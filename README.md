@@ -71,6 +71,9 @@ Till now, we have only assign variables without hardcoding values to them . Crea
 We don't have to necessarily need to go to console for fetch the DNS name We can get it in terminal using output concept . Configuration files for this step are located in the [output.tf](https://github.com/Nikhil1422003/High-availblle-deployment-AWS-TERRAFORM/blob/main/output.tf) file in this repository.
 
 
+**As we mentioned in the output.tf file we will get loadbalancer DNS then we can paste that DNS in browser we will get our output after we apply below commands**
+
+
 #### Step 11 : Application
 
 Once the above-mentioned steps are completed, apply the following commands to create the resources:
